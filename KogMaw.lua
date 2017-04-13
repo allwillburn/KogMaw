@@ -307,22 +307,6 @@ OnDraw(function (myHero)
 end)
 
 
-OnProcessSpell(function(unit, spell)
-	local target = GetCurrentTarget()        
-       
-              
-
-        if unit.isMe and spell.name:lower():find("itemtiamatcleave") then
-		Mix:ResetAA()
-	end	
-               
-        if unit.isMe and spell.name:lower():find("itemravenoushydracrescent") then
-		Mix:ResetAA()
-	end
-		
-
-
-end) 
 
 
 local function SkinChanger()
