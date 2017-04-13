@@ -9,7 +9,7 @@ else
 end
 
 
-if GetObjectName(GetMyHero()) ~= "Kog'Maw" then return end
+if GetObjectName(GetMyHero()) ~= "KogMaw" then return end
 
 
 require("DamageLib")
