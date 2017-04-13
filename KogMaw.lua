@@ -310,7 +310,7 @@ end)
 OnProcessSpell(function(unit, spell)
 	local target = GetCurrentTarget()        
        
-        d        
+              
 
         if unit.isMe and spell.name:lower():find("itemtiamatcleave") then
 		Mix:ResetAA()
