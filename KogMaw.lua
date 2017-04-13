@@ -143,7 +143,7 @@ OnTick(function (myHero)
             end
 
             if KogMawMenu.Combo.E:Value() and Ready(_E) and ValidTarget(target, 1280) then
-			 CastSkillShot(_E, target)
+			 CastSkillShot(target, _E)
 	    end
 
             if KogMawMenu.Combo.W:Value() and Ready(_W) and ValidTarget(target, 650) then
